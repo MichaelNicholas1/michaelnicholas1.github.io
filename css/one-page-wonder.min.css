@@ -57,7 +57,8 @@ header.masthead .bg-circle-4{
     margin-right:auto;
 }
 .img-fluid{
-    border-radius: 30%;
+    border-style: solid;
+    border-color: coral;
    
 }
 
