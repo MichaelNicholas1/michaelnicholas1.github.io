@@ -36,6 +36,14 @@
       src="https://plausible.io/js/plausible.js"
     ></script>
 
+    <script>
+      window.plausible =
+        window.plausible ||
+        function () {
+          (window.plausible.q = window.plausible.q || []).push(arguments);
+        };
+    </script>
+
     <!-- Pointing to plausible script for custom event for resume downloads-->
     <script src="plausibleio/plausible.js"></script>
   </head>
