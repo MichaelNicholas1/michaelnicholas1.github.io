@@ -33,7 +33,7 @@
     <script
       defer
       data-domain="michaelnicholas1.github.io"
-      src="https://plausible.io/js/plausible.js"
+      src="https://plausible.io/js/plausible.outbound-links.js"
     ></script>
 
     <script>
@@ -61,15 +61,16 @@
         >
         <!-- download pdf-->
         <a
+          data-analytics='"Download", {"props":{"plan":"Navigation"}}'
           class="navbar-brand js-scroll-trigger"
           href="pdfjs/web/Nicholas_Michael_Resume.pdf"
-          data-analytics='"Register", {"props":{"plan":"Navigation"}}'
+          download
           >Download My Resume</a
         >
       </div>
     </nav>
 
-    <div class="embed-responsive" style="padding-bottom: 80%">
+    <div class="embed-responsive" style="padding-bottom: 100%">
       <iframe
         id="pdf-js-viewer"
         src="pdfjs/web/viewer.html?file=Nicholas_Michael_Resume.pdf"
